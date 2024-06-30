@@ -1,0 +1,5 @@
+-İşlemcinin sys tick timer interruptı 1 ms olarak ayarlanacak
+-Bu interrupt içerisinde 1 adet led toggle edilecek
+-Led in toggle süresi bi tane fonksiyon veya makro üzerinden değiştirilebilecek fakat
+bu fonksiyon veya makro 1 ms olan interrupt timer ını değiştirmeyecek
+Systick timer çözünürlüğü her zaman 1 ms olacak

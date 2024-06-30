@@ -1,0 +1,1 @@
+Yaz stajım sonrası oluşan kişisel merakım sonucu STM32 mikrodenetleyicileri programlamayı öğrenmek ve pratik yapmak amaçlı çözdüğüm, düzenli olarak eklemeler yaptığım sorulardır.

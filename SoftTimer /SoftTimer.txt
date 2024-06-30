@@ -1,0 +1,13 @@
+1 adet timer interrupt tanımlanacak 10 ms çözünürlüğünden
+Bu timer kulllanılarak 10 tane ye kadar soft timer üretilebilecek
+4 adet fonksiyon olacak
+AddSoftTimer()	//yeni bir timer ekleyecek, timer ın eklendiği gibi çalışıp çalışmayacağını kontrol edecek
+		//bir parametresi de olacak. 
+// Örnek -> AddSoftTimer(Timer1,FALSE) -> timer eklenecek fakat aktif olmayacak. StartSoftTimer(Timer1) ile
+aktif hale gelecek.
+AddSoftTimer(duration,TRUE) şeklinde tanımlanırsa timer direk başlamış olacak
+
+
+StartSoftTimer() // Eklenen bir soft timer ı başlatacak
+StopSoftTimer()  // Eklenen bir soft timer ı durduracak
+UpdateSoftTimer() // Eklenen bir soft timer ın süresini güncelleyecek
